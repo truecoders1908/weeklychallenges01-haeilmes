@@ -3,6 +3,9 @@ namespace weeklyChallenges01
 {
     public class Program
     {
-        static Main 
+        static void Main(string[] args)
+        {
+
+        }
     }
 }
