@@ -8,37 +8,64 @@ namespace ChallengesWithTests01
     {
         public bool AreTwoNumbersTheSame(int num1, int num2)
         {
-            throw new NotImplementedException();
+            if ( num1 == num2)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         public double Subtract(double minuend, double subtrahend)
         {
-            throw new NotImplementedException();
+            double difference = minuend - subtrahend;
+            return difference;
         }
 
         public int Add(int number1, int number2)
         {
-            throw new NotImplementedException();
+            int sum = number1 + number2;
+            return sum;
         }
 
         public int GetSmallestNumber(int number1, int number2)
         {
-            throw new NotImplementedException();
+            if (number1 < number2)
+            {
+                return number1;
+            }
+            else
+            {
+                return number2;
+            }
         }
 
         public long Multiply(long factor1, long factor2)
         {
-            throw new NotImplementedException();
+            long multiply = factor1 * factor2;
+            return multiply;
         }
 
         public string GetGreeting(string nameOfPerson)
         {
-            throw new NotImplementedException();
+            if (nameOfPerson != "")
+            {
+                string greetWithName = "Hello, " + nameOfPerson + "!";
+                return greetWithName;
+            }
+            else
+            {
+                string greetNoName = "Hello!";
+                return greetNoName;
+            }
         }
 
         public string GetHey()
         {
-            throw new NotImplementedException();
+            string hey = "HEY!";
+            return hey;
         }
     }
 }
